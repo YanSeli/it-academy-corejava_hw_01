@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 12;
-        int b = 2;
-        int c = 3;
-        System.out.println(a / (b * c));
+        int a = -1;
+        int b = 0;
+        int c = 1;
 
-        double p = (1 / (1 + (1 / (2 + (1 / (2 + (3 / 5)))))));
-        System.out.println(p);
+        if (a<0 || b<0 || c<0) {
+            boolean d = true;
+            System.out.println(d);
+        } else System.out.println(false);
+
     }
 }
