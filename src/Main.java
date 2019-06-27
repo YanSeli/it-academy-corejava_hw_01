@@ -1,13 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        int a = -1;
-        int b = 0;
+        int a = 0;
+        int b = 8;
         int c = 1;
+        double degrees = 4;
+        double x = Math.toRadians(degrees);
 
-        if (a<0 || b<0 || c<0) {
-            boolean d = true;
-            System.out.println(d);
-        } else System.out.println(false);
+
+        if (x > 0) {
+            double g = (Math.sin(x)) * (Math.sin(x));
+        } else{
+            double g = (1 - 2* Math.sin(x*x));
+        }
+
 
     }
 }
